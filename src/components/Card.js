@@ -1,8 +1,13 @@
 import React from "react";
 import "../components/Card.css";
 
-function Card(props) {
+//creating card component
+const Card = (props) => {
+
+  // iterating through array of cards using array map method
   return props.data.map((card, i) => (
+
+    // providing unique key for each card component and dynamically adding values inside card using props
     <div className="col-lg-4" key={i}>
       <div className="card mb-5 mb-lg-0">
         <div className="card-body">
