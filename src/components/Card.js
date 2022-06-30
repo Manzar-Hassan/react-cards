@@ -72,7 +72,7 @@ const Card = (props) => {
           </ul>
           <div className="d-grid">
             <a
-              href="google.com"
+              href="/"
               className="btn btn-primary text-uppercase btn_props"
             >
               Button
